@@ -23,5 +23,6 @@ namespace ItServiceApp.ViewModels
         [Display(Name = "Yeni Şifre tekrar")]
         [Compare(nameof(NewPassword))]
         public string ConfirmedPassword { get; set; }
+
     }
 }
